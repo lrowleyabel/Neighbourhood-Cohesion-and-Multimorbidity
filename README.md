@@ -1,6 +1,8 @@
 ## Neighbourhood and Multimorbidity
 
-This repository contains the code for the research paper _Neighbourhood social cohesion, loneliness and multimorbidity: evidence from a UK longitudinal panel study_.
+This repository contains the code for the research paper _Neighbourhood social cohesion, loneliness and multimorbidity: evidence from a UK longitudinal panel study_, published in Health & Place:
+
+> Rowley-Abel et al., _Neighbourhood social cohesion, loneliness and multimorbidity: Evidence from a UK longitudinal panel study_, Health & Place, Volume 91, 2025, https://doi.org/10.1016/j.healthplace.2025.103414.
 
 This study models the relationship between multimorbidity risk and neighbourhood cohesion. Additionally, it considers how this relationship may be linked to individual loneliness. It conducts both cross-sectional and longitudinal analysis using a large panel study from the UK - [the Understanding Society dataset](https://www.understandingsociety.ac.uk/).
 
@@ -12,7 +14,7 @@ Data preparation and bivariate analysis is conducted in R, while multivariate mo
 
 #### Setup:
 - Download the main Understanding Society dataset (Study number 6614), extract the files and save the folder called _6614_ under Data > Understanding Society Data > Raw Data
-- Download the Special License Understanding Society dataset with geogrpahic indicators (Study Number 7248), extract the files and save the folder called _6614_ under Data > Understanding Society Data > Raw Data
+- Download the Special License Understanding Society dataset with geogrpahic indicators (Study Number 7248), extract the files and save the folder called _7248_ under Data > Understanding Society Data > Raw Data
 
 #### Cross-Sectional Analysis:
 - Data Preparation:
@@ -27,7 +29,7 @@ Data preparation and bivariate analysis is conducted in R, while multivariate mo
 - Sensitivity Analysis:
   - [Run Cross-sectional Multilevel Models (Three-Level Version)](./Cross-sectional%20Analysis/Analysis/Three-Level%20Multilevel%20Models.do)
   - [Run Further Sensitivity Analysis](./Cross-sectional%20Analysis/Analysis/Further%20Sensitivity%20Analysis.do)
-  
+
 #### Longitudinal Analysis:
 - Data Preparation:
   - [Create follow-up outcome variables](./Longitudinal%20Analysis/Data%20Preparation/creating_wave_10_outcome_variables.R)
