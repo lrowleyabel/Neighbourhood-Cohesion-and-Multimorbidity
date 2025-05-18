@@ -1,4 +1,4 @@
-## Neighbourhood and Multimorbidity
+## Neighbourhood Cohesion and Multimorbidity
 
 This repository contains the code for the research paper _Neighbourhood social cohesion, loneliness and multimorbidity: evidence from a UK longitudinal panel study_, published in Health & Place:
 
